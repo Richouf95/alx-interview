@@ -7,7 +7,8 @@ def canUnlockAll(boxes):
     """
     Determine if all boxes can be opened.
 
-    :param boxes: List of lists, where each sublist contains keys to other boxes
+    :param boxes: List of lists, where each sublist
+        contains keys to other boxes
     :return: True if all boxes can be opened, False otherwise
     """
     boxesLength = len(boxes)
