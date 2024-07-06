@@ -17,10 +17,12 @@ def canUnlockAll(boxes):
         previous_index = current_index
         accessible_boxes.append(current_index)
         collected_keys.update(boxes[current_index])
+
         for key in collected_keys:
             if key != 0 and key < num_boxes and key not in accessible_boxes:
                 current_index = key
                 break
+
         if previous_index != current_index:
             continue
         else:
