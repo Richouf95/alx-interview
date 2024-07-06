@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+'''LockBoxes Challenge'''
+
 
 def can_open_all_boxes(boxes):
-    """    
+    """
     Returns:
         bool: True si toutes les boîtes peuvent être ouvertes, False sinon.
     """
