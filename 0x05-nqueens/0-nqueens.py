@@ -60,6 +60,9 @@ def n_queens(N):
 
 # Fonction principale pour exécuter le script
 if __name__ == "__main__":
+    """
+    if main
+    """
     import sys
     if len(sys.argv) != 2:
         print("Usage: ./0-nqueens.py N")
@@ -71,8 +74,8 @@ if __name__ == "__main__":
         print("N must be a number")
         sys.exit(1)
 
-    if N < 1:
-        print("N must be at least 1")
+    if N < 4:
+        print("N must be at least 4")
         sys.exit(1)
 
     solutions = n_queens(N)
