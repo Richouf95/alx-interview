@@ -5,6 +5,9 @@
 
 
 def isWinner(x, nums):
+    """
+    check winner
+    """
     if x < 1 or not nums:
         return None
 
